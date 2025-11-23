@@ -8,7 +8,7 @@ async function listarTodos() {
         html += `<tr>
         <td>${Programador.id}</td>
         <td>${Programador.nome_do_programador}</td>
-        <td>${vendaCombustivel.idade}</td>
+        <td>${Programador.idade}</td>
         <td>${Programador.area_de_atuacao}</td>
         <td>${Programador.tipo_de_programador}</td>
         </tr>`;

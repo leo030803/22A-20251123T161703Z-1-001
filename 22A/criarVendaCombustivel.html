@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de vendas de combustível</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lista de programador</h1>
+    <form id="formProgramador">
+        <label>Nome do programador:</label>
+        <input type="text" id="nome_do_programador" name="nome_do_programador">
+        <br><br>
+        <label>Idade:</label>
+        <input type="number" id="idade" name="idade" step="0.01" min="0" max="99999.99">
+        <br><br>
+        <label>Área de atuação:</label>
+        <input type="text" id="area_de_atuacao" name="area_de_atuacao" step="0.01" min="0" max="99999.99">
+        <br><br>
+        <label>Tipo de programador:</label>
+        <input type="text" id="tipo_de_programador" name="tipo_de_programador">
+        <br><br>
+        <button type="submit">Cadastrar</button>
+    </form>
+    <div id="message"></div>
+
+    <script src="criarVendaCombustivel.js"></script>
+</body>
+
+</html>

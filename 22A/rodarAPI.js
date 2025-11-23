@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static('.'));
 
-// Criar vendas de combustível
+// Criar lista de programador
 app.post('/Programador', (req, res) => {
     const { nome_do_programador, idade, area_de_atuacao, tipo_de_programador } = req.body;
 
